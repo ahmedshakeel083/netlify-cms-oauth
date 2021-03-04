@@ -1,6 +1,14 @@
 backend:
-  name: git-gateway
+  # name: git-gateway
+  # branch: master
+  name: github
+  repo: ahmedshakeel083/netlify-cms-oauth
   branch: master
+  base_url: http://localhost:3000
+  auth_endpoint: api/auth
+
+# local_backend: true
+
 media_folder: public/images
 public_folder: /images
 publish_mode: editorial_workflow
