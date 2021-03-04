@@ -3,9 +3,9 @@ backend:
   # branch: master
   name: github
   repo: ahmedshakeel083/netlify-cms-oauth
-  branch: master
-  base_url: http://localhost:3000
-  auth_endpoint: api/auth
+  branch: main
+  # base_url: http://localhost:3000
+  # auth_endpoint: api/auth
 
 # local_backend: true
 
